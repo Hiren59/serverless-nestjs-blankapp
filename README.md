@@ -1,8 +1,13 @@
-<!-- PROJECT LOGO -->
+
+
 <br />
 <p align="center">
   <h3 align="center">Serverless NestJS blank-app</h3>
-
+  
+  <p align="center">
+  <img src="https://i.ibb.co/k9vGNHf/Logo-Makr-3h5n-Cq.png">
+</p>
+  
   <p align="center">
     A simple blank-app to kickstart your NestJS project using AWS lambda.
     <br />
@@ -14,15 +19,11 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<!--<details open="open">
+<details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -31,32 +32,54 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
-</details>-->
+</details>
 
-## WIP
+## About the project
 
-The readme is a WIP, but the code is ready to use, clone the repo / download it as a zip, run npm install, npm run build, sls offline and you should be good to go !
+## Getting Started
 
-<!-- LICENSE -->
+### Prerequisites
+- [AWS](aws.amazon.com) account
+- [NodeJS](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
+- serverless CLI : `npm install -g serverless`
+
+### Installation
+
+Clone the repository :<br/>
+```git clone https://github.com/alexbdet/sls-nest-blankapp.git```
+
+Run those commands :
+```
+cd sls-nest-blankapp
+npm install
+npm run build
+sls offline
+```
+
+Hit `localhost:3000`, if everything went well you should see the "Hello World!" message !
+
+To deploy on AWS, use :
+```
+npm run build
+serverless deploy
+```
+The CLI will deploy your code and create the required services (usually : API gateway & lambda function).
+
 ## License
 
 This project uses "unlicense". See `LICENSE` for more information.
 
 
 
-<!-- CONTACT -->
 ## Contact
 
 Alexandre Beaudet - [@alex_bdet](https://twitter.com/alex_bdet) - alexandre.bdet@gmail.com
 
 
-<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [NestJS](nestjs.com)

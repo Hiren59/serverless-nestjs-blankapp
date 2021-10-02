@@ -1,8 +1,8 @@
 {
   "name": "sls-nest-blankapp",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "version": "1.0.0",
+  "description": "A blank application for a AWS serverless project using NestJS",
+  "author": "Alexandre Beaudet",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

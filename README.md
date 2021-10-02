@@ -51,7 +51,7 @@
 ### Installation
 
 Clone the repository :<br/>
-```git clone https://github.com/alexbdet/sls-nest-blankapp.git```
+```git clone https://github.com/alexbdet/serverless-nestjs-blankapp.git```
 
 Run those commands :
 ```

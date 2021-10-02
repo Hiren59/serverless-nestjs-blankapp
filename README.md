@@ -61,7 +61,7 @@ npm run build
 sls offline
 ```
 
-Hit `localhost:3000`, if everything went well you should see the "Hello World!" message !
+Hit `localhost:3000/dev`, if everything went well you should see the "Hello World!" message !
 
 To deploy on AWS, use :
 ```
